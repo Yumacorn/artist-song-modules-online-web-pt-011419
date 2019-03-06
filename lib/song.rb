@@ -1,5 +1,4 @@
 require 'pry'
-require '../lib/concerns/memorable.rb'
 
 class Song
   extend Memorable
