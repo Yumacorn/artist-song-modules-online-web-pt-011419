@@ -1,4 +1,5 @@
 require 'pry'
+require '../lib/concerns/memorable.rb'
 
 class Artist
   extend Memorable
