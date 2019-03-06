@@ -14,6 +14,4 @@ module Memorable
       self.class.all << self
     end
   end
-  extend Memorable::ClassMethods
-  include Memorable::InstanceMethods
 end
